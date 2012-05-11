@@ -892,8 +892,7 @@ mw.UploadWizardDetails.prototype = {
 			filekey: _this.upload.fileKey,
 			filename: _this.upload.title.getMain(),
 			text: wikiText,
-			summary: "User created page with " + mw.UploadWizard.userAgent,
-			timeout: 90000 // 90 seconds
+			summary: "User created page with " + mw.UploadWizard.userAgent
 		};
 
 		var err = function( code, info ) {
